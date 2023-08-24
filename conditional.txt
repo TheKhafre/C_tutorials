@@ -1,0 +1,22 @@
+PSEUDOCODE:
+
+step 1: declare program variables
+	int age;
+	int salary;
+	int new_salary;
+
+step 2: ask user to enter age.
+step 3: save user's entered age in variable age
+step 4: ask for user current salary
+step 5: save the worker's current salary in variable salary
+step 6: if(age >= 60 && salary < 100k) then we increase salary by 10%
+	if(age >= 60 && salary > 100k) then we increase salary by 5%
+	if(age < 60 && salary < 70k) then we increase salary by 10%
+	else print( no increment today)
+
+step 7: save the increment in variable increment as follows
+	1. new_salary = salary + (salary * 0.1)
+	2. new_salary = salary + (salary * 0.05)
+	3. new_salary = salary + (salary * 0.1)
+
+step 8: print your new salary is new_salary
