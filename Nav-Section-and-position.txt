@@ -1,0 +1,11 @@
+HTML SESSION
+What is a favicon?
+
+flex-shrink
+flex-grow
+---
+- NAV SECTION (using flex)
+	- LIST ITEMS
+		ul >> li >> a
+
+- CSS POSITION (Sticky, Absolute, Relative, and Static)

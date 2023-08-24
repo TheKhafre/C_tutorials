@@ -1,0 +1,20 @@
+nesting
+commented
+garbage value
+# Loop
+	for loop (entry control)
+-intialization (i = 0)
+
+-condition (i >= 5)
+
+- update (++ --)
+	i++, ++i, --i, i--
+printf("%d", i++); = 0 (post-increment)
+printf("%d", ++i); = 2 (pre-increment)
+printf("%d", --i); = 1 (pre-decrement)
+printf("%d", i--); = 1 (post-decreement)
+
+	//while loop (entry control)
+	//do while (exit control)
+
+//* termination condition

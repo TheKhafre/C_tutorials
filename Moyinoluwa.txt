@@ -1,0 +1,61 @@
+C PROGRAMMING LANGUAGE
+
+THE C PROGRAM STRUCTURE
+	-Preprocessor
+		-header files (.h)
+			stdio.h = printf, scanf, gets, 				putchar
+	-Comments
+	-Functions
+		parts of a function:
+			- Return-type funtcion_name input_argument
+	
+	-Variables 
+		C has a problem ofn garbage values.
+		-compile-time declaration
+		-Run-time declaration
+	-Statements & Expressions
+	-Formated input and output (they use format specifier)
+		-printf and scanf
+	-unformatted input and output (they only print characters)
+		unformatted output: putchar, putch, puts
+		unformatted input: getchar, getch, gets, getc
+	-Conditional Statement
+
+-PSEUDOCODE
+	what the code does: multiply the users input by 10.
+
+	-Declare variables (let's say variable a and b)
+	-assign 10 to one of the declared variable (lets say a = 10)
+	-ask user for input (using printf function)
+	-save user's input in the other declared variable (let's say this will be saved in b) (using scanf function)
+	-multiply a * b and save the result in a declared variable "result"
+
+lesson source code:
+#include <stdio.h>
+
+/* this code will print hello world
+* using the printf function that is included
+* stdio.h header file
+*/
+
+
+int main(void)
+{
+	//char a = "My sugar mommy = Moyinoluwa";
+	char b;
+	/*int a = 10;
+	int b;
+	int result = 0;
+
+	printf("please enter a number:\t");
+	scanf("%d", &b);
+	result = a * b;
+
+	printf("the result is %d\n", result);*/
+	printf("please enter a character:\t");
+	b=getchar();
+	printf("you have entered %c\n", b);
+	//puts (a);
+}
+
+	
