@@ -1,0 +1,28 @@
+Operators in :
+
+1. Unary Operator:
+
+	i. unity operator (+/-)
+	ii. increment and decrement (++/--) 
+	iii. logical not (!)
+	iv. addressof (&)
+
+## UNITY OPERATOR
+	int a, b, c;
+	
+	a = 5;
+	b = 6;
+	c = a + (-b);
+
+	c = 5 + (-6);
+	c = -1;
+
+## INCREMENT AND DECREMENT OPERATION
+	i. post operation
+		(increment)
+		int a = 5
+		int b;
+		b = a++;
+		int c = a;	
+
+	ii. pre operation
